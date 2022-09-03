@@ -804,6 +804,12 @@
               </includes>
             </configuration>
           </plugin>
+
+          <plugin>
+<groupId>org.apache.felix</groupId>
+<artifactId>maven-bundle-plugin</artifactId>
+<version>5.1.1</version>
+</plugin>
         </plugins>
       </build>
     </profile>
